@@ -1,0 +1,345 @@
+body
+{
+	height: 920px;
+	margin: 0px;
+	border: 8px solid black;
+}
+
+.container
+{
+	height: 800px;
+	width: 100%;
+	margin: 0px;
+}
+
+header
+{
+	width: 100%;
+	height: 100px;
+	display: block;
+}
+
+#heading
+{
+	height: 100%;
+	margin: 0px;
+	text-align: center;
+	background-color: #01CBC6;
+	font-family: "Lobster", "Verdana";
+	text-shadow: 1.5px 1.5px 0 #444;
+	font-size: 70px;
+	font-weight: bold;
+	padding-top: 5px;
+	border: 4px solid #0A3D62;
+}
+
+#nav
+{
+	border: 1px solid black;
+	background-color: #0A3D62;
+	position: sticky;
+	top: 0px;
+	z-index: 1;
+}
+
+#nav button
+{
+	color: white;
+	background-color: #0A3D62;
+	border: none;
+	font-family: "Candara";
+	width: 190px;	
+	height: 75px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#nav button:hover
+{
+	background-color: #758AA2;
+	color: black;
+	border: 0.1px solid black;
+}
+
+#site-content
+{
+	height: 820px;
+	width: 100%;
+	color: black;
+	background-color: #74B9FF;
+}
+
+#event-info
+{
+	
+	text-align: center;
+	padding: 10px;
+	display: block;
+	font-family: "Candara";
+	height: 660px;
+	background-image: url("bg4.png");
+	background-repeat: no-repeat;
+	background-size: 100% 780px;
+	color: black;
+}
+
+#subject
+{
+	font-family: "Lobster", serif;
+	text-shadow: 1.5px 1.5px 0 #444;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.info
+{
+	font-size: 25px;
+	margin: 0px;
+	font-weight: bold;
+	color: black;
+	background-color: grey;
+	opacity: 0.7;
+	z-index: 0;
+}
+
+.info1
+{
+	font-family: "Candara";
+	color: yellow;
+	font-weight: bold;
+	font-size: 25px;
+	padding: 5px;
+	background-color: grey;
+	opacity: 0.7;
+}
+
+.info2
+{
+	font-family: "Candara";
+	color: white;
+	font-weight: bold;
+	font-size: 27px;
+	padding: 5px;
+	background-color: grey;
+	opacity: 0.7;
+}
+
+#list
+{
+	text-align: left;
+	font-family: "Candara";
+	color: black;	
+	font-weight: bold;
+	font-size: 20px;
+	padding: 5px;
+	background-color: grey;
+	opacity: 0.7;	
+}
+
+#reg-form
+{
+	height: 660px;
+	font-family: "Candara";
+	text-align: center;
+	padding: 10px;
+	display: none;
+	align-items: center;
+}
+
+#cust-form
+{
+	height: 80%;
+	width: 200px;
+	margin: 0 auto;
+	border: 2px solid black;
+	border-radius: 4px;
+	padding: 5%;
+	position: relative;
+	top: 2%;
+	left: 1.6%;
+	background-color: grey;
+	opacity: 0.9;
+}
+
+#cust-form label
+{
+	margin: 3px;
+	font-weight: bold;
+}
+
+#cust-form input
+{
+	float: left;
+	margin: 3px;
+}
+
+#cust-form div
+{
+	float: left;
+	margin: 10px;
+	padding-top: 10px;
+}
+
+.label1
+{
+	display: block;
+	float: left;
+	margin: 0 auto;
+}
+
+.form-headings
+{
+	text-align: center;
+	display: inline-block;
+	font-size: 20px;
+	color: #0A3D62;
+	font-family: "Lobster", "Verdana";
+}
+
+#cust-form button
+{
+	margin: 10px;
+	padding: 6px;
+	width: 50%;
+	font-weight: bold;
+	color: white;
+	border-radius: 4px;
+	background-color: #0A3D62;
+}
+
+#reg-table
+{
+	height: 660px;
+	font-family: "Candara";
+	text-align: center;
+	padding: 10px;
+	display: none;
+}
+
+#altHeading
+{
+	font-family: "Lobster", "Verdana";
+	font-size: 50px;
+	color: white;
+	text-shadow : "1.5px 1.5px 0 #444";
+	font-weight: bold;
+	position: relative;
+	top: 55px;
+}
+
+#data-table
+{
+	border-color: navy;
+	position: relative;
+	top: 0%;
+	left: 25px;
+	width: 700px;
+	border-radius: 4px;
+	background-color: white;
+	display: none;
+}
+
+#data-table thead th
+{
+	height: 50px;
+	width: 740px;
+	background-color: #0A3D62;
+	font-family: "Candara";
+	padding: 3px;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	border: 4px solid #0A3D62;
+}
+
+#data-table tbody
+{
+	border: 2px solid #0A3D62;	
+}
+
+#data-table tr
+{
+	height: 30px;
+	width: 100%;
+	background-color: #a2dbf2;
+	font-size: 18px;
+	font-weight: bold;
+	color: black;
+	font-family: "Candara";
+}
+
+#data-table tr:hover
+{
+	background-color: lightgreen;
+	height: 70px;
+}
+
+footer
+{
+	height: 61px;
+	color: white;
+	text-align: right;
+	font-family: "Candara";
+	font-size: 16px;
+	font-weight: bold;
+	border: 1px solid black;
+	background-color: #0A3D62;
+	position: sticky;
+	bottom: 0px;
+}
+
+footer p
+{
+	padding-top: 5px;
+	padding-right: 15px;
+}
+
+/*@media (min-width: 320px) and (max-width: 480px)
+{
+	body
+	{
+		height: 2100px;
+		margin: 0px;
+		border: 8px solid black;
+	}
+
+	header
+	{
+		height: 90px;
+	}
+
+	#heading
+	{
+		font-size: 45px;
+	}
+
+	#site-content
+	{	
+		height: 1440px;
+		width: 100%;
+		color: black;
+		background-color: #74B9FF;
+	}
+
+	.container
+	{
+		height: 1440px;
+		width: 100%;
+		margin: 0px;
+	}
+
+	#event-info
+	{
+	
+		text-align: center;
+		padding: 10px;
+		display: block;
+		font-family: "Candara";
+		height: 1700px;
+		background-image: url("bg4.png");
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		color: black;
+	}
+}
+*/

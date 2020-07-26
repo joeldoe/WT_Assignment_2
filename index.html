@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>WeirdClicks | Photography</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet"
+	href="https://fonts.googleapis.com/css?family=Lobster">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<div id="container">
+	<header>
+		<p id="heading"><strong>WeirdClicks</strong></p>
+	</header>
+	<div id="site-content">
+		<nav id="nav">
+			<button id="home">About us</button>
+			<button id="form">Registration form</button>
+			<button id="data">Show registrations</button>
+		</nav>
+	<div id="event-info">
+		<p id="subject"><strong>Photography Workshop</strong></p>
+		<p class="info">Greetings people! If you are a photography enthusiast or if you want to start learning photography, then yes, this is the right place for you!</p>
+		<p class="info">We at WeirdClicks, train people to start learning photography, polish their skills and also provide higher level training!</p>
+		<p class="info1">The beginner level workshops are completely free and the semi-pro and pro-level workshops are paid.</p>
+		<p class="info">People who register for beginner workshop before 31st July 2020 will be getting 50% discount on semi-pro level workshop.</p>
+		<ul id="list" type="none">
+			<li>Mode: Online mode (session link will be sent to your email id.)</li>
+			<li>Duration: 1 week</li>
+			<li>Certificate: You will earn it if attendance is minimum 4 days.</li>
+		</ul>
+		<p class="info1">Go register now!</p>
+	</div>
+
+	<div id="reg-form">
+		<form id="cust-form">
+			<label class="form-headings">Personal Information</label>
+			<br>
+			<label class="label1">Name</label>
+			<br>
+			<p id="error1"></p>
+			<input type="text" placeholder="Name" class="ip1" name="name">
+			<br>
+			<label class="label1">Email ID</label>
+			<br>
+			<p id="error2"></p>
+			<input type="text" name="email" placeholder="Email ID" class="ip1">
+			<br>
+			<label class="label1">Phone no.</label>
+			<br>
+			<p id='error3'></p>
+			<input type="text" placeholder="Phone no" class="ip1" name="phone">
+			<br>
+			<label class="label1">Age</label>
+			<br>
+			<p id="error4"></p>
+			<input type="text" placeholder="Age" class="ip1" name="age">
+			<br>
+			<div>
+			<label class="form-headings">Workshop Preferences</label>
+			<label>Select your workshop</label>
+			<br>
+			<p id="error5"></p>
+			<input type="checkbox" value="Beginner Level" name="check" id="check1" onclick="checkedBox(this);"><label>Beginner Level Workshop</label>
+			<br>
+			<input type="checkbox" value="Semi-pro Level" name="check" id="check2" onclick="checkedBox(this);"><label>Semi-pro Level Workshop</label>
+			<br>
+			<input type="checkbox" value="Pro Level" name="check" id="check3" onclick="checkedBox(this);"><label>Pro Level Workshop</label>
+			</div>
+			<br>
+			<br>
+			<label>Select your slot</label>
+			<br>
+			<p id="error6"></p>
+			<select>
+				<option value="" name="option" id="op1" defaultSelected="true">Training slot</option>
+				<option value="27/07/2020 to 02/08/2020" name="option" id="op2">27/07/2020 to 02/08/2020</option>
+				<option value="03/08/2020 to 09/08/2020" name="option" id="op3">03/08/2020 to 09/08/2020</option>
+				<option value="17/08/2020 to 23/08/2020" name="option" id="op4">17/08/2020 to 23/08/2020</option>
+				<option value="24/08/2020 to 30/08/2020" name="option" id="op5">24/08/2020 to 30/08/2020</option>
+			</select>
+			<button type="button" onclick="formValidation();">Register</button>
+		</form>
+	</div>
+		
+	<div id="reg-table">
+		<p id="altHeading">No registrations yet!</p>
+		<table id="data-table" align="center"></table>
+	</div>
+	<footer>
+		<p>T&C | Privacy Policy | Copyright @ WeirdClicks Pvt. Ltd.</p>	
+	</footer>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
